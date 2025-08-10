@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Meta -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Velovista Luxury Showroom | Customization & Tuning</title>
+  <meta name="description" content="Velovista — Bespoke luxury car customization and performance tuning showroom." />
+  <link rel="canonical" href="/luxury.html" />
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Montserrat:wght@300;500;700&display=swap" rel="stylesheet" />
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="/luxury.css" />
+
+  <!-- Open Graph / Twitter -->
+  <meta property="og:title" content="Velovista Luxury Showroom | Customization & Tuning" />
+  <meta property="og:description" content="Explore premium customization, performance tuning, and our luxury showroom experience." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="/velovista-og.jpg" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:image" content="/velovista-og.jpg" />
+</head>
+
+<body>
+  <header class="site-header" role="banner" aria-label="Primary navigation">
+    <div class="container header-inner">
+      <a class="brand" href="#home" aria-label="Velovista homepage">Velovista</a>
+
+      <!-- CSS-only mobile menu toggle -->
+      <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-label="Toggle navigation" />
+      <label for="nav-toggle" class="hamburger" aria-hidden="true"><span></span><span></span><span></span></label>
+
+      <nav class="nav" role="navigation" aria-label="Main menu">
+        <ul class="nav-list">
+          <li><a href="#home" class="nav-link story-link">Home</a></li>
+          <li><a href="#about" class="nav-link story-link">About</a></li>
+          <li><a href="#services" class="nav-link story-link">Services</a></li>
+          <li><a href="#gallery" class="nav-link story-link">Gallery</a></li>
+          <li><a href="#configurator" class="nav-link story-link">Configurator</a></li>
+          <li><a href="#booking" class="nav-link story-link">Booking</a></li>
+          <li><a href="#blog" class="nav-link story-link">Blog</a></li>
+          <li><a href="#contact" class="nav-link story-link">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="home" tabindex="-1">
+    <!-- Hero: YouTube Background Video -->
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-media" aria-label="Luxury car showroom video">
+        <!-- Replace VIDEO_ID with your YouTube video ID or keep as-is to test -->
+        <iframe
+          class="hero-iframe"
+          src="bently.mp4 "
+          title="Velovista Showroom"
+          frameborder="0"
+          allow="autoplay; encrypted-media; picture-in-picture"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen
+        ></iframe>
+        <div class="hero-overlay" aria-hidden="true"></div>
+      </div>
+      <div class="container hero-content animate-enter">
+        <h1 id="hero-title" class="hero-title">Luxury Car Customization & Tuning</h1>
+        <p class="hero-subtitle">Nostalgic craftsmanship. Modern performance. Build your bespoke driving experience.</p>
+        <div class="hero-cta">
+          <a href="#services" class="btn btn-hero">Explore Services</a>
+          <a href="#gallery" class="btn btn-ghost story-link">See Gallery</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="section" aria-labelledby="about-title">
+      <div class="container">
+        <h2 id="about-title" class="section-title">Our Heritage & Craftsmanship</h2>
+        <p class="muted">At Velovista, we blend timeless craftsmanship with cutting-edge technology to create bespoke automotive masterpieces. Our artisans and engineers redefine what it means to customize your drive.</p>
+      </div>
+    </section>
+
+    <!-- Services -->
+    <section id="services" class="section" aria-labelledby="services-title">
+      <div class="container">
+        <h2 id="services-title" class="section-title">Performance & Customization Services</h2>
+        <div class="cards">
+          <article class="card hover-scale">
+            <h3>Engine Upgrades</h3>
+            <p class="muted">Precision remaps and turbo enhancements for unleashed power.</p>
+          </article>
+          <article class="card hover-scale">
+            <h3>Suspension & Handling</h3>
+            <p class="muted">Superior ride and control with custom suspension packages.</p>
+          </article>
+          <article class="card hover-scale">
+            <h3>Luxury Finishes</h3>
+            <p class="muted">Bespoke paintworks, upholstery, and forged wheels.</p>
+          </article>
+          <article class="card hover-scale">
+            <h3>Tech Upgrades</h3>
+            <p class="muted">Latest infotainment, driver assistance, and performance tech.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Gallery -->
+    <section id="gallery" class="section" aria-label="Showcase of custom cars and finishes">
+      <div class="container">
+        <h2 class="section-title">Gallery of Masterpieces</h2>
+        <div class="gallery">
+          <img src="https://images.unsplash.com/photo-1502877338535-766e1452684a?auto=format&fit=crop&w=1200&q=80" alt="Custom painted luxury car" loading="lazy" />
+          <img src="https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=1200&q=80" alt="Forged wheels detail" loading="lazy" />
+          <img src="https://images.unsplash.com/photo-1511392324059-f3a1b59e94a1?auto=format&fit=crop&w=1200&q=80" alt="Custom interior leather upholstery" loading="lazy" />
+          <img src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1200&q=80" alt="Luxury car dashboard tech upgrades" loading="lazy" />
+        </div>
+      </div>
+    </section>
+
+    <!-- Configurator -->
+    <section id="configurator" class="section" aria-labelledby="configurator-title">
+      <div class="container">
+        <h2 id="configurator-title" class="section-title">Build Your Own Velovista</h2>
+        <p class="muted">Customize materials, finishes, tech packages, and more with our intuitive configurator interface.</p>
+        <div class="placeholder">Configurator interface coming soon…</div>
+        <p class="center"><a href="#booking" class="btn btn-hero">Proceed to Booking</a></p>
+      </div>
+    </section>
+
+    <!-- Booking -->
+    <section id="booking" class="section" aria-labelledby="booking-title">
+      <div class="container">
+        <h2 id="booking-title" class="section-title">Schedule Your Test Drive or Consultation</h2>
+        <!-- Basic backend note: set action to your endpoint or use mailto: -->
+        <form class="form" action="#" method="post">
+          <div class="grid">
+            <label>
+              <span>Full Name *</span>
+              <input type="text" name="name" placeholder="John Doe" required aria-required="true" />
+            </label>
+            <label>
+              <span>Email *</span>
+              <input type="email" name="email" placeholder="john@example.com" required aria-required="true" />
+            </label>
+            <label>
+              <span>Phone Number *</span>
+              <input type="tel" name="phone" placeholder="+1 555 123 4567" required aria-required="true" />
+            </label>
+            <label>
+              <span>Service Interested In *</span>
+              <select name="service" required aria-required="true">
+                <option value="">Select a service</option>
+                <option value="test-drive">Test Drive</option>
+                <option value="consultation">Consultation</option>
+                <option value="customization">Customization Session</option>
+              </select>
+            </label>
+            <label>
+              <span>Preferred Date *</span>
+              <input type="date" name="date" required aria-required="true" />
+            </label>
+          </div>
+          <button type="submit" class="btn btn-hero">Book Now</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- Blog -->
+    <section id="blog" class="section" aria-labelledby="blog-title">
+      <div class="container">
+        <h2 id="blog-title" class="section-title">Insights & Stories</h2>
+        <div class="blog">
+          <article class="card">
+            <h3>Craftsmanship Meets Innovation</h3>
+            <p class="muted">Discover how Velovista merges classic artistry with the latest tuning technology to create unparalleled automotive experiences.</p>
+            <a href="#" class="story-link">Read More</a>
+          </article>
+          <article class="card">
+            <h3>Top 5 Tuning Tips for Maximum Performance</h3>
+            <p class="muted">Expert advice on how to get the most out of your vehicle with our bespoke tuning packages.</p>
+            <a href="#" class="story-link">Read More</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section" aria-labelledby="contact-title">
+      <div class="container grid-2">
+        <div>
+          <h2 id="contact-title" class="section-title">Get In Touch</h2>
+          <address class="muted">
+            <p class="text">Velovista Showroom</p>
+            <p>123 Luxury Drive, Auto City, CA 90001</p>
+            <p>Phone: +1 (555) 123-4567</p>
+            <p>Email: <a class="story-link" href="mailto:contact@velovista.com">contact@velovista.com</a></p>
+          </address>
+        </div>
+        <form class="form" action="#" method="post">
+          <label>
+            <span>Name *</span>
+            <input type="text" name="contact-name" placeholder="Your Name" required aria-required="true" />
+          </label>
+          <label>
+            <span>Email *</span>
+            <input type="email" name="contact-email" placeholder="your.email@example.com" required aria-required="true" />
+          </label>
+          <label>
+            <span>Message *</span>
+            <textarea name="contact-message" rows="4" placeholder="Your message here..." required aria-required="true"></textarea>
+          </label>
+          <button type="submit" class="btn btn-ghost">Send Message</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer" role="contentinfo">
+    <div class="container footer-inner">
+      <p class="muted">© 2025 Velovista. All rights reserved.</p>
+      <nav aria-label="Social media links">
+        <ul class="social">
+          <li><a href="#" aria-label="Facebook">Facebook</a></li>
+          <li><a href="#" aria-label="Instagram">Instagram</a></li>
+          <li><a href="#" aria-label="Twitter">Twitter</a></li>
+          <li><a href="#" aria-label="LinkedIn">LinkedIn</a></li>
+        </ul>
+      </nav>
+    </div>
+  </footer>
+
+  <!-- Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "AutomotiveBusiness",
+    "name": "Velovista",
+    "description": "Bespoke luxury car customization & performance tuning showroom.",
+    "url": "/luxury.html",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "123 Luxury Drive",
+      "addressLocality": "Auto City",
+      "addressRegion": "CA",
+      "postalCode": "90001",
+      "addressCountry": "US"
+    },
+    "telephone": "+1-555-123-4567"
+  }
+  </script>
+</body>
+</html>
